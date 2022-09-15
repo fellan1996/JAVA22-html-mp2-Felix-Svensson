@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(54, 41, 41);
+}
+.meny {
+    display: flex;
+    margin: 50px 25px 25px 25px;
+    flex-flow: row wrap;
+    justify-content: center;  
+
+}
+.logo {    
+    display: block;
+    margin: 50px auto;
+}
+.meny-col {
+    display: flex;
+    flex-flow: column nowrap;
+    max-width: 20rem;
+    gap: .5rem;
+    
+}
+section > div {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5%;
+    box-shadow: black;
+}
+.meny-heading { 
+    color: #de4150;
+    font-size: 8rem;
+    margin-top: -5rem;
+}
+.first-dish-sec-col, .sec-dish-first-col {
+    background: linear-gradient(#cec596, #f9efb3, #cec596);
+}
+.sec-dish-sec-col, .first-dish-first-col  {
+    background: linear-gradient(#a3cfc7, #b6e8df, #a3cfc7);
+
+}
+.third-dish-sec-col {
+background: linear-gradient(#019994, #00b5ae, #019994);
+
+}
+footer {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #df4755;
+    justify-content: center;
+    background: linear-gradient();
+}
+footer > p {
+    padding: 20px;
+}
+h2 {
+    font-weight: 100;
+}
+div > p {
+font-style: italic;
+}
