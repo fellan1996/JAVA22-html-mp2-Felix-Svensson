@@ -6,7 +6,6 @@ body{
     margin: 50px 25px 25px 25px;
     flex-flow: row wrap;
     justify-content: center;  
-
 }
 .logo {    
     display: block;
@@ -16,8 +15,7 @@ body{
     display: flex;
     flex-flow: column nowrap;
     max-width: 20rem;
-    gap: .5rem;
-    
+    gap: .5rem;  
 }
 section > div {
     margin: 5px;
@@ -35,11 +33,9 @@ section > div {
 }
 .sec-dish-sec-col, .first-dish-first-col  {
     background: linear-gradient(#a3cfc7, #b6e8df, #a3cfc7);
-
 }
 .third-dish-sec-col {
 background: linear-gradient(#019994, #00b5ae, #019994);
-
 }
 footer {
     display: flex;
